@@ -104,16 +104,15 @@ export default function About() {
               </h2>
               <div className="space-y-6 text-brand-brown/70 font-light leading-relaxed">
                 <p>
-                  Juniper Cabinetry was born from a simple belief: that the spaces we inhabit should
-                  be as unique as the lives we live. Founded in 2012 by master craftsman Benny Phung,
-                  our workshop has grown from a small garage operation into a respected name in custom
-                  cabinetry throughout the Greater Vancouver.
+                  Juniper Cabinetry was born from a simple belief: the kitchen is the heart of your home—where cherished memories and heartfelt conversations come together. Founded in 2012 by master craftsman Benny Phung, the workshop grew from a small garage operation into a trusted name in custom cabinetry throughout Greater Vancouver. Today, the company is led by Ricky Dang.
                 </p>
                 <p>
-                  What sets us apart is our unwavering commitment to the marriage of traditional
-                  craftsmanship and contemporary design. Each piece that leaves our workshop is a
-                  testament to time-honored woodworking techniques, executed with precision using
-                  modern tools and sustainable practices.
+From the beginning, Juniper Cabinetry has been a family effort. Ricky grew up in the workshop alongside his father, learning the care, discipline, and patience required to build cabinetry that lasts. That early involvement naturally evolved into a deeper role as the business grew.                </p>
+                <p>
+Now guiding its next chapter, Ricky continues the legacy by thoughtfully modernizing the business while staying true to the craftsmanship and values that define Juniper Cabinetry.
+                </p>
+                <p>
+What truly sets Juniper Cabinetry apart is a commitment to the full cabinetry experience. From the first conversation to final installation, every detail is approached with care and respect for how clients live in their space. The result is not just well-crafted cabinetry, but a seamless process that supports everyday living and elevates the home as a whole.
                 </p>
               </div>
             </div>

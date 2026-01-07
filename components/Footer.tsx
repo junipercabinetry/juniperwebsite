@@ -29,13 +29,13 @@ export default function Footer() {
             </p>
             <div className="flex gap-4">
               <a
-                href="#"
+                href="https://www.instagram.com/junipercabinetry/"
                 className="w-12 h-12 flex items-center justify-center rounded-full border border-brand-brown text-cream/60 hover:bg-brand-green hover:border-brand-green hover:text-cream transition-all duration-300"
               >
                 <Instagram size={20} />
               </a>
               <a
-                href="#"
+                href="https://www.facebook.com/junipercabinetry"
                 className="w-12 h-12 flex items-center justify-center rounded-full border border-brand-brown text-cream/60 hover:bg-brand-green hover:border-brand-green hover:text-cream transition-all duration-300"
               >
                 <Facebook size={20} />
