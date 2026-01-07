@@ -157,7 +157,7 @@ export default function About() {
         </div>
       </section>
 
-      <section className="py-32 bg-cream">
+      {/* <section className="py-32 bg-cream">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div
             ref={teamSection.ref}
@@ -178,7 +178,7 @@ export default function About() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className="py-32 bg-brand-brown-dark relative overflow-hidden">
         <div className="absolute inset-0 opacity-10">
