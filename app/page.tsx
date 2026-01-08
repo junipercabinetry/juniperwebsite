@@ -100,12 +100,12 @@ export default function Home() {
             Handcrafted Excellence Since 2012
           </p>
           <h1 className={`font-serif text-6xl md:text-8xl text-cream mb-8 tracking-tight leading-[0.9] scroll-fade-up delay-100 ${heroLoaded ? 'visible' : ''}`}>
-            The Art of
+            Designed for
             <br />
-            <span className="italic font-normal">Fine Cabinetry</span>
+            <span className="italic font-normal">How You Live</span>
           </h1>
           <p className={`text-xl md:text-2xl text-cream/90 mb-12 font-light max-w-2xl mx-auto leading-relaxed scroll-fade-up delay-200 ${heroLoaded ? 'visible' : ''}`}>
-            Where precision meets artistry in every handcrafted piece
+            An elevated living experience for the heart of your home
           </p>
           <div className={`flex flex-col sm:flex-row gap-4 justify-center scroll-fade-up delay-300 ${heroLoaded ? 'visible' : ''}`}>
             <Link href="/portfolio">
@@ -268,12 +268,12 @@ export default function Home() {
             Our Philosophy
           </p>
           <h2 className={`font-serif text-4xl md:text-6xl text-cream mb-8 leading-tight scroll-fade-up delay-100 ${showcase.isVisible ? 'visible' : ''}`}>
-            &ldquo;Cabinetry is not furniture.
+            &ldquo;The Heart of Your Home Requires a Human-Centric Approach.&rdquo;
             <br />
-            It&apos;s architecture.&rdquo;
+    
           </h2>
           <p className={`text-cream/80 font-light text-lg max-w-2xl mx-auto leading-relaxed scroll-fade-up delay-200 ${showcase.isVisible ? 'visible' : ''}`}>
-            We believe that exceptional cabinetry transforms spaces, enhances daily rituals, and becomes an integral part of how you experience your home.
+            We believe an exceptional design experience is essential to shaping spaces around your lifestyle. Our work enhances your daily routines, supports how your time is shared, and becomes an integral part of how your home is experienced.
           </p>
         </div>
       </section>
