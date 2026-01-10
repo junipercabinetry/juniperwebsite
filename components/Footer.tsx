@@ -58,7 +58,7 @@ export default function Footer() {
               </a>
 
               <a
-                href=""
+                href="https://www.youtube.com/@JuniperCabinetry"
                 className="w-12 h-12 flex items-center justify-center rounded-full border border-brand-brown text-cream/60 hover:bg-brand-green hover:border-brand-green hover:text-cream transition-all duration-300"
                 aria-label="YouTube"
               >
@@ -66,7 +66,7 @@ export default function Footer() {
               </a>
 
               <a
-                href=""
+                href="https://www.tiktok.com/@junipercabinetry"
                 className="w-12 h-12 flex items-center justify-center rounded-full border border-brand-brown text-cream/60 hover:bg-brand-green hover:border-brand-green hover:text-cream transition-all duration-300"
                 aria-label="TikTok"
               >
