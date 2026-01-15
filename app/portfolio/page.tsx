@@ -11,7 +11,7 @@ const projects = [
   {
     title: 'Luxury Kitchen Renovation',
     category: 'Kitchen',
-    images: ['/modern-flat-panel-white-light-oak-premium-luxury-white-stone-grey-lines-kitchen-cabinetry-vancouver 1.0.png', '/modern-flat-panel-white-light-oak-premium-luxury-white-stone-grey-lines-kitchen-cabinetry-vancouver 1.1.png', '/modern-flat-panel-white-light-oak-premium-luxury-white-stone-grey-lines-kitchen-cabinetry-vancouver 1.2.png'],
+    images: ['/modern-flat-panel-white-light-oak-premium-luxury-white-stone-grey-lines-kitchen-cabinetry-vancouver-1.0.png', '/modern-flat-panel-white-light-oak-premium-luxury-white-stone-grey-lines-kitchen-cabinetry-vancouver-1.1.jpg', '/modern-flat-panel-white-light-oak-premium-luxury-white-stone-grey-lines-kitchen-cabinetry-vancouver-1.2.png'],
     description: 'Sleek contemporary kitchen balancing white and warm wood textures defined by full-height stone surfaces.',
     featured: true,
     size: 'large',
@@ -19,7 +19,7 @@ const projects = [
   {
     title: 'Minimalist Kitchen',
     category: 'Kitchen',
-    images: ['/portfolio-image-02.jpg', '/custom-modern-kitchen-vancouver-flat-panel-grey-tan-cabinetry-two-tone 2.1.jpg', '/custom-modern-kitchen-vancouver-flat-panel-grey-tan-cabinetry-two-tone 2.2.jpg', '/custom-modern-kitchen-vancouver-flat-panel-grey-tan-cabinetry-two-tone 2.3.jpg', '/custom-modern-kitchen-vancouver-flat-panel-grey-tan-cabinetry-two-tone 2.4.jpg', '/custom-modern-kitchen-vancouver-flat-panel-grey-tan-cabinetry-two-tone 2.5.jpg', '/custom-modern-kitchen-vancouver-flat-panel-grey-tan-cabinetry-two-tone 2.6.jpg'],
+    images: ['/portfolio-image-02.jpg', '/custom-modern-kitchen-vancouver-flat-panel-grey-tan-cabinetry-two-tone-2.1.jpg', '/custom-modern-kitchen-vancouver-flat-panel-grey-tan-cabinetry-two-tone-2.2.jpg', '/custom-modern-kitchen-vancouver-flat-panel-grey-tan-cabinetry-two-tone-2.3.jpg', '/custom-modern-kitchen-vancouver-flat-panel-grey-tan-cabinetry-two-tone-2.4.jpg', '/custom-modern-kitchen-vancouver-flat-panel-grey-tan-cabinetry-two-tone-2.5.jpg', '/custom-modern-kitchen-vancouver-flat-panel-grey-tan-cabinetry-two-tone-2.6.jpg'],
     description: 'A clean, functional kitchen featuring flat-panel cabinets, warm wood tones, and a bright, open layout.',
     featured: false,
     size: 'medium',
