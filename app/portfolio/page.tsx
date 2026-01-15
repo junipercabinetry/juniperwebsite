@@ -11,7 +11,7 @@ const projects = [
   {
     title: 'Luxury Kitchen Renovation',
     category: 'Kitchen',
-    images: ['/kitchen-hero-01.png'],
+    images: ['/modern-flat-panel-white-light-oak-premium-luxury-white-stone-grey-lines-kitchen-cabinetry-vancouver 1.0.png', '/modern-flat-panel-white-light-oak-premium-luxury-white-stone-grey-lines-kitchen-cabinetry-vancouver 1.1.png', '/modern-flat-panel-white-light-oak-premium-luxury-white-stone-grey-lines-kitchen-cabinetry-vancouver 1.2.png'],
     description: 'Sleek contemporary kitchen balancing white and warm wood textures defined by full-height stone surfaces.',
     featured: true,
     size: 'large',
