@@ -22,7 +22,7 @@ const projects = [
     images: ['/custom-modern-kitchen-vancouver-flat-panel-two-tone-oak-white-minimal-luxury-1.0.jpg', '/custom-modern-kitchen-vancouver-flat-panel-two-tone-oak-white-minimal-luxury-1.1.jpg', '/custom-modern-kitchen-vancouver-flat-panel-two-tone-oak-white-minimal-luxury-1.2.jpg', '/custom-modern-kitchen-vancouver-flat-panel-two-tone-oak-white-minimal-luxury-1.3.png', '/custom-modern-kitchen-vancouver-flat-panel-two-tone-oak-white-minimal-luxury-1.4.jpg'],
     description: 'A luxury integrated kitchen featuring two-tone flat-panel cabinet doors, pairing white with warm oak tones.',
     featured: false,
-    size: 'medium',
+    size: 'large',
   },
   {
     title: 'Minimalist Modern Kitchen',
@@ -30,7 +30,23 @@ const projects = [
     images: ['/portfolio-image-02.jpg', '/custom-modern-kitchen-vancouver-flat-panel-grey-tan-cabinetry-two-tone-2.1.jpg', '/custom-modern-kitchen-vancouver-flat-panel-grey-tan-cabinetry-two-tone-2.2.jpg', '/custom-modern-kitchen-vancouver-flat-panel-grey-tan-cabinetry-two-tone-2.3.jpg', '/custom-modern-kitchen-vancouver-flat-panel-grey-tan-cabinetry-two-tone-2.4.jpg', '/custom-modern-kitchen-vancouver-flat-panel-grey-tan-cabinetry-two-tone-2.5.jpg', '/custom-modern-kitchen-vancouver-flat-panel-grey-tan-cabinetry-two-tone-2.6.jpg'],
     description: 'A clean, functional kitchen featuring flat-panel cabinets, warm wood tones, and a bright, open layout.',
     featured: false,
-    size: 'medium',
+    size: 'large',
+  },
+  {
+    title: 'Premium Transitional Kitchen',
+    category: 'Kitchen',
+    images: ['/custom-modern-kitchen-vancouver-shaker-grey-white-premium-1.0.jpg', '/custom-modern-kitchen-vancouver-shaker-grey-white-premium-1.1.jpg'],
+    description: 'A shaker-style kitchen featuring an island centerpiece, with contrasting white and dark gray doors to match the stonework.',
+    featured: true,
+    size: 'large',
+  },
+  {
+    title: 'Luxury Traditional Kitchen',
+    category: 'Kitchen',
+    images: ['/portfolio-image-10.jpg'],
+    description: 'A bright kitchen with refined details and full-height cabinetry, a custom hood, and integrated appliances.',
+    featured: true,
+    size: 'large',
   },
   {
     title: 'Living Room Built-ins',
@@ -38,7 +54,7 @@ const projects = [
     images: ['/portfolio-image-06.jpg'],
     description: 'A striking stone feature wall entertainment center framed by warm wood cabinetry for a balanced contrast.',
     featured: false,
-    size: 'medium',
+    size: 'large',
   },
   {
     title: 'Bar & Open Shelf Display',
@@ -46,7 +62,7 @@ const projects = [
     images: ['/portfolio-image-07.png'],
     description: 'A sleek, integrated bar paired with illuminated open shelving for a gallery-like presentation.',
     featured: false,
-    size: 'small',
+    size: 'large',
   },
   {
     title: 'Luxury Entertainment Display',
@@ -54,7 +70,7 @@ const projects = [
     images: ['/portfolio-image-03.png'],
     description: 'A seamless media wall with open shelving wrapped in rich, dark wood for a bold yet restrained presence.',
     featured: false,
-    size: 'medium',
+    size: 'large',
   },
   {
     title: 'Transitional Gourmet Kitchen',
@@ -78,14 +94,6 @@ const projects = [
     images: ['/portfolio-image-09.png'],
     description: 'Soft, neutral cabinetry paired with a full-height stone backsplash for a clean, timeless look.',
     featured: false,
-    size: 'medium',
-  },
-  {
-    title: 'Detailed Traditional Kitchen',
-    category: 'Kitchen',
-    images: ['/portfolio-image-10.jpg'],
-    description: 'A bright kitchen with refined details and full-height cabinetry, a custom hood, and integrated appliances.',
-    featured: true,
     size: 'large',
   },
   {
@@ -110,7 +118,7 @@ const projects = [
     images: ['/portfolio-image-04.jpg'],
     description: 'Floating vanity with double sinks, custom storage solutions, and soft-close drawers.',
     featured: false,
-    size: 'small',
+    size: 'large',
   },
   {
     title: 'Mudroom Organization',
@@ -118,7 +126,7 @@ const projects = [
     images: ['/portfolio-image-08.jpg'],
     description: 'Functional entryway with cushioned bench seating and personalized cubbies',
     featured: false,
-    size: 'small',
+    size: 'large',
   },
   {
     title: 'White Marble Vanity',
@@ -133,14 +141,6 @@ const projects = [
     category: 'Kitchen',
     images: ['/portfolio-image-12.jpg'],
     description: 'A minialist modern kitchen with white and warm wood tone doors, open shelves, and a handle-less finish.',
-    featured: true,
-    size: 'large',
-  },
-  {
-    title: 'Integrated Transitional Kitchen',
-    category: 'Kitchen',
-    images: ['/portfolio-image-13.jpg'],
-    description: 'A white shaker-style kitchen featuring an island centerpiece, with contrasting dark and light quartz countertops.',
     featured: true,
     size: 'large',
   },
