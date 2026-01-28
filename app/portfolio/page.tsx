@@ -91,8 +91,8 @@ const projects = [
   {
     title: 'Modern Kitchen',
     category: 'Kitchen',
-    images: ['/portfolio-image-09.png'],
-    description: 'Soft, neutral cabinetry paired with a full-height stone backsplash for a clean, timeless look.',
+    images: ['/condo-kitchen-custom-modern-panel-grey-dark-oak-two-tone-full-height-backsplash-1.0.png', '/condo-kitchen-custom-modern-panel-grey-dark-oak-two-tone-full-height-backsplash-1.1.png'],
+    description: 'Gray, white, and dark oak cabinetry finishes paired with a full-height stonework for a modern elegance feel.',
     featured: false,
     size: 'large',
   },
