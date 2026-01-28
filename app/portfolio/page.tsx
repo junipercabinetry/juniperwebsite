@@ -9,28 +9,28 @@ import { useModal } from '@/contexts/ModalContext';
 
 const projects = [
   {
-    title: 'Luxury Kitchen Renovation',
+    title: 'Luxury Modern Kitchen',
     category: 'Kitchen',
-    images: ['/kitchen-hero-01.png', '/modern-flat-panel-white-light-oak-premium-luxury-white-stone-grey-lines-kitchen-cabinetry-vancouver-1.1.jpg', '/modern-flat-panel-white-light-oak-premium-luxury-white-stone-grey-lines-kitchen-cabinetry-vancouver-1.2.png'],
+    images: ['/kitchen-hero-01.png', '/modern-flat-panel-white-light-oak-premium-luxury-white-stone-grey-lines-kitchen-cabinetry-vancouver-1.1.jpg', '/modern-flat-panel-white-light-oak-premium-luxury-white-stone-grey-lines-kitchen-cabinetry-vancouver-1.2.png', '/modern-flat-panel-white-light-oak-premium-luxury-white-stone-grey-lines-kitchen-cabinetry-vancouver-1.3.png', '/modern-flat-panel-white-light-oak-premium-luxury-white-stone-grey-lines-kitchen-cabinetry-vancouver-1.4.jpg', '/modern-flat-panel-white-light-oak-premium-luxury-white-stone-grey-lines-kitchen-cabinetry-vancouver-1.5.png'],
     description: 'Sleek contemporary kitchen balancing white and warm wood textures defined by full-height stone surfaces.',
     featured: true,
     size: 'large',
   },
   {
-    title: 'Minimalist Kitchen',
+    title: 'Luxury Modern Kitchen',
+    category: 'Kitchen',
+    images: ['/custom-modern-kitchen-vancouver-flat-panel-two-tone-oak-white-minimal-luxury-1.0.jpg', '/custom-modern-kitchen-vancouver-flat-panel-two-tone-oak-white-minimal-luxury-1.1.jpg', '/custom-modern-kitchen-vancouver-flat-panel-two-tone-oak-white-minimal-luxury-1.2.jpg', '/custom-modern-kitchen-vancouver-flat-panel-two-tone-oak-white-minimal-luxury-1.3.png', '/custom-modern-kitchen-vancouver-flat-panel-two-tone-oak-white-minimal-luxury-1.4.jpg'],
+    description: 'A luxury integrated kitchen featuring two-tone flat-panel cabinet doors, pairing white with warm oak tones.',
+    featured: false,
+    size: 'medium',
+  },
+  {
+    title: 'Minimalist Modern Kitchen',
     category: 'Kitchen',
     images: ['/portfolio-image-02.jpg', '/custom-modern-kitchen-vancouver-flat-panel-grey-tan-cabinetry-two-tone-2.1.jpg', '/custom-modern-kitchen-vancouver-flat-panel-grey-tan-cabinetry-two-tone-2.2.jpg', '/custom-modern-kitchen-vancouver-flat-panel-grey-tan-cabinetry-two-tone-2.3.jpg', '/custom-modern-kitchen-vancouver-flat-panel-grey-tan-cabinetry-two-tone-2.4.jpg', '/custom-modern-kitchen-vancouver-flat-panel-grey-tan-cabinetry-two-tone-2.5.jpg', '/custom-modern-kitchen-vancouver-flat-panel-grey-tan-cabinetry-two-tone-2.6.jpg'],
     description: 'A clean, functional kitchen featuring flat-panel cabinets, warm wood tones, and a bright, open layout.',
     featured: false,
     size: 'medium',
-  },
-  {
-    title: 'Contemporary Bathroom Vanity',
-    category: 'Bathroom',
-    images: ['/portfolio-image-04.jpg'],
-    description: 'Floating vanity with double sinks, custom storage solutions, and soft-close drawers.',
-    featured: false,
-    size: 'small',
   },
   {
     title: 'Living Room Built-ins',
@@ -39,14 +39,6 @@ const projects = [
     description: 'A striking stone feature wall entertainment center framed by warm wood cabinetry for a balanced contrast.',
     featured: false,
     size: 'medium',
-  },
-  {
-    title: 'Transitional Gourmet Kitchen',
-    category: 'Kitchen',
-    images: ['/portfolio-image-05.png'],
-    description: 'Full kitchen remodel with custom cabinetry and professional-grade appliance features.',
-    featured: true,
-    size: 'large',
   },
   {
     title: 'Bar & Open Shelf Display',
@@ -63,6 +55,14 @@ const projects = [
     description: 'A seamless media wall with open shelving wrapped in rich, dark wood for a bold yet restrained presence.',
     featured: false,
     size: 'medium',
+  },
+  {
+    title: 'Transitional Gourmet Kitchen',
+    category: 'Kitchen',
+    images: ['/portfolio-image-05.png'],
+    description: 'Full kitchen remodel with custom cabinetry and professional-grade appliance features.',
+    featured: true,
+    size: 'large',
   },
   {
     title: 'Transitional Elegance Kitchen',
@@ -103,6 +103,14 @@ const projects = [
     description: 'A clean, white built-in closet designed for flexibility and everyday organization.',
     featured: true,
     size: 'large',
+  },
+  {
+    title: 'Contemporary Bathroom Vanity',
+    category: 'Bathroom',
+    images: ['/portfolio-image-04.jpg'],
+    description: 'Floating vanity with double sinks, custom storage solutions, and soft-close drawers.',
+    featured: false,
+    size: 'small',
   },
   {
     title: 'Mudroom Organization',
