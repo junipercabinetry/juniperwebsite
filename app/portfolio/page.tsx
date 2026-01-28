@@ -51,7 +51,7 @@ const projects = [
   {
     title: 'Transitional Kitchen',
     category: 'Kitchen',
-    images: ['/portfolio-image-05.png'],
+    images: ['/luxury-white-painted-shaker-door-glass-display-integrated-appliance-kitchen-1.0.png', 'luxury-white-painted-shaker-door-glass-display-integrated-appliance-kitchen-1.1'],
     description: 'A white painted shaker-style kitchen with glass displays, integrated appliances, and a massive island centerpiece.',
     featured: true,
     size: 'large',
