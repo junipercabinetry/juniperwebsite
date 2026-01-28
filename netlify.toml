@@ -2,6 +2,3 @@
 base = "."
 command = "npx next build"
 publish = "out"
-
-[[plugins]]
-package = "@netlify/plugin-nextjs"
