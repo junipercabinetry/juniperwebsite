@@ -9,7 +9,7 @@ import { useModal } from '@/contexts/ModalContext';
 
 const projects = [
   {
-    title: 'Luxury Modern Kitchen',
+    title: 'Modern Kitchen',
     category: 'Kitchen',
     images: ['/kitchen-hero-01.png', '/modern-flat-panel-white-light-oak-premium-luxury-white-stone-grey-lines-kitchen-cabinetry-vancouver-1.1.jpg', '/modern-flat-panel-white-light-oak-premium-luxury-white-stone-grey-lines-kitchen-cabinetry-vancouver-1.2.png', '/modern-flat-panel-white-light-oak-premium-luxury-white-stone-grey-lines-kitchen-cabinetry-vancouver-1.3.png', '/modern-flat-panel-white-light-oak-premium-luxury-white-stone-grey-lines-kitchen-cabinetry-vancouver-1.4.jpg', '/modern-flat-panel-white-light-oak-premium-luxury-white-stone-grey-lines-kitchen-cabinetry-vancouver-1.5.png'],
     description: 'Sleek contemporary kitchen balancing white and warm wood textures defined by full-height stone surfaces.',
@@ -83,6 +83,14 @@ const projects = [
   {
     title: 'Modern Kitchen',
     category: 'Kitchen',
+    images: ['/premium-kitchen-white-black-stone-high-gloss-finish-doors-black-stonework-integrated-appliance-1.0.png', '/premium-kitchen-white-black-stone-high-gloss-finish-doors-black-stonework-integrated-appliance-1.1.png', '/premium-kitchen-white-black-stone-high-gloss-finish-doors-black-stonework-integrated-appliance-1.2.png', '/premium-kitchen-white-black-stone-high-gloss-finish-doors-black-stonework-integrated-appliance-1.3.png'],
+    description: 'A modern kitchen featuring white and black premium high-gloss panels with subtle white details to match the deep dark stonework.',
+    featured: true,
+    size: 'large',
+  },
+  {
+    title: 'Modern Kitchen',
+    category: 'Kitchen',
     images: ['/portfolio-image-02.jpg', '/custom-modern-kitchen-vancouver-flat-panel-grey-tan-cabinetry-two-tone-2.1.jpg', '/custom-modern-kitchen-vancouver-flat-panel-grey-tan-cabinetry-two-tone-2.2.jpg', '/custom-modern-kitchen-vancouver-flat-panel-grey-tan-cabinetry-two-tone-2.3.jpg', '/custom-modern-kitchen-vancouver-flat-panel-grey-tan-cabinetry-two-tone-2.4.jpg', '/custom-modern-kitchen-vancouver-flat-panel-grey-tan-cabinetry-two-tone-2.5.jpg', '/custom-modern-kitchen-vancouver-flat-panel-grey-tan-cabinetry-two-tone-2.6.jpg'],
     description: 'A clean, functional kitchen featuring flat-panel cabinets, warm wood tones, and a bright, open layout.',
     featured: false,
@@ -113,6 +121,14 @@ const projects = [
     size: 'large',
   },
   {
+    title: 'Modern Kitchen',
+    category: 'Kitchen',
+    images: ['/portfolio-image-15.jpg'],
+    description: 'A modern kitchen where the focus is on the over-the-island range hood for great culinary execution.',
+    featured: true,
+    size: 'large',
+  },
+  {
     title: 'Bathroom Vanity',
     category: 'Bathroom',
     images: ['/portfolio-image-04.jpg'],
@@ -133,14 +149,6 @@ const projects = [
     category: 'Bathroom',
     images: ['/portfolio-image-11.png'],
     description: 'A crisp white cabinetry paired with a white marble countertop and walls for a premium look.',
-    featured: true,
-    size: 'large',
-  },
-  {
-    title: 'Modern Kitchen',
-    category: 'Kitchen',
-    images: ['/portfolio-image-15.jpg'],
-    description: 'A modern kitchen where the focus is on the over-the-island range hood for great culinary execution.',
     featured: true,
     size: 'large',
   },
