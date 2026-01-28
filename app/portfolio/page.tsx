@@ -43,7 +43,7 @@ const projects = [
   {
     title: 'Traditional Kitchen',
     category: 'Kitchen',
-    images: ['/portfolio-image-10.jpg'],
+    images: ['/traditional-luxury-premium-white-raised-panel-shaker-custom-kitchen-glass-display-1.0.jpg', '/traditional-luxury-premium-white-raised-panel-shaker-custom-kitchen-glass-display-1.1.jpg', '/traditional-luxury-premium-white-raised-panel-shaker-custom-kitchen-glass-display-1.2.jpg'],
     description: 'A bright kitchen with refined details and full-height cabinetry, a custom hood, and integrated appliances.',
     featured: true,
     size: 'large',
@@ -99,7 +99,7 @@ const projects = [
   {
     title: 'Transitional Kitchen',
     category: 'Kitchen',
-    images: ['/transform-space-hero.png'],
+    images: ['/transitional-custom-luxury-kitchen-white-shaker-doors-gold-accent-hardware-full-height-stonework-1.0.png', '/transitional-custom-luxury-kitchen-white-shaker-doors-gold-accent-hardware-full-height-stonework-1.1.png'],
     description: 'A bright and modern kitchen with clean shaker fronts, full-height quartz surfaces, and subtle gold accents.',
     featured: true,
     size: 'large',
