@@ -92,6 +92,8 @@ export default function Home() {
           />
         </div>
 
+        <div className="absolute inset-0 z-[1] bg-black/20 pointer-events-none"></div>
+
         <div className="absolute inset-0 z-0 grain"></div>
 
         <div className="relative z-10 text-center px-6 max-w-5xl mx-auto">
