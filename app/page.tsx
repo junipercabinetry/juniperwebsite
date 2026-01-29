@@ -98,7 +98,7 @@ export default function Home() {
           <p className={`text-cream text-sm tracking-[0.3em] uppercase mb-6 text-shadow-readable scroll-fade-up ${heroLoaded ? 'visible' : ''}`}>
             Handcrafted Excellence Since 2012
           </p>
-          <h1 className={`font-serif text-6xl md:text-8xl text-cream mb-8 tracking-tight leading-[0.9] text-shadow-soft scroll-fade-up delay-100 ${heroLoaded ? 'visible' : ''}`}>
+          <h1 className={`font-serif text-6xl md:text-8xl text-cream mb-8 tracking-tight leading-[0.9] text-shadow-readable scroll-fade-up delay-100 ${heroLoaded ? 'visible' : ''}`}>
             Designed for
             <br />
             <span className="italic font-normal">How You Live</span>
