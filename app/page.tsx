@@ -103,7 +103,7 @@ export default function Home() {
             <br />
             <span className="italic font-normal">How You Live</span>
           </h1>
-          <p className={`text-xl md:text-2xl text-cream/90 mb-12 font-light max-w-2xl mx-auto leading-relaxed text-shadow-readable scroll-fade-up delay-200 ${heroLoaded ? 'visible' : ''}`}>
+          <p className={`text-xl md:text-2xl text-cream/95 mb-12 font-light max-w-2xl mx-auto leading-relaxed text-shadow-readable scroll-fade-up delay-200 ${heroLoaded ? 'visible' : ''}`}>
             An elevated living experience for the heart of your home
           </p>
           <div className={`flex flex-col sm:flex-row gap-4 justify-center scroll-fade-up delay-300 ${heroLoaded ? 'visible' : ''}`}>
