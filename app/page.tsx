@@ -81,16 +81,15 @@ export default function Home() {
   return (
     <div className="min-h-screen overflow-x-hidden">
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
-        <div
-          className="absolute inset-0 z-0"
-          style={{
-            backgroundImage: 'url(/kitchen-hero-01.png)',
-            backgroundSize: 'cover',
-            backgroundPosition: 'center',
-            transform: `translateY(${scrollY * 0.3}px)`,
-          }}
-        >
-          <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/80"></div>
+        <div className="absolute inset-0 z-0 overflow-hidden">
+          <video
+            className="w-full h-full object-cover"
+            src="/juniper-hero-page-video.mp4"
+            autoPlay
+            muted
+            loop
+            playsInline
+          />
         </div>
 
         <div className="absolute inset-0 z-0 grain"></div>
