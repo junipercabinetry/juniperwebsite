@@ -122,7 +122,7 @@ export default function Services() {
             backgroundPosition: 'center',
           }}
         >
-          <div className="absolute inset-0 bg-black bg-opacity-65 pointer-events-none"></div>
+          <div className="absolute inset-0 bg-black bg-opacity-60 pointer-events-none"></div>
         </div>
         <div className="absolute inset-0 z-0 grain"></div>
 
