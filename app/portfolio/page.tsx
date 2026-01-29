@@ -207,7 +207,7 @@ export default function Portfolio() {
         <div
           className="absolute inset-0 z-0"
           style={{
-            backgroundImage: 'url(/portfolio-image-05.png)',
+            backgroundImage: 'url(/kitchen-hero-01.png)',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
           }}
