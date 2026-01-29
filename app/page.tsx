@@ -95,7 +95,7 @@ export default function Home() {
         <div className="absolute inset-0 z-0 grain"></div>
 
         <div className="relative z-10 text-center px-6 max-w-5xl mx-auto">
-          <p className={`text-cream text-sm tracking-[0.3em] uppercase mb-6 scroll-fade-up ${heroLoaded ? 'visible' : ''}`}>
+          <p className={`text-cream text-sm tracking-[0.3em] uppercase mb-6 text-shadow-soft scroll-fade-up ${heroLoaded ? 'visible' : ''}`}>
             Handcrafted Excellence Since 2012
           </p>
           <h1 className={`font-serif text-6xl md:text-8xl text-cream mb-8 tracking-tight leading-[0.9] text-shadow-soft scroll-fade-up delay-100 ${heroLoaded ? 'visible' : ''}`}>
