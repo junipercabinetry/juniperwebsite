@@ -203,7 +203,7 @@ export default function Portfolio() {
 
   return (
     <div className="min-h-screen">
-      <section className="relative h-[80vh] flex items-center justify-center overflow-hidden">
+      <section className="relative h-[75vh] flex items-center justify-center overflow-hidden">
         <div
           className="absolute inset-0 z-0"
           style={{
@@ -231,7 +231,7 @@ export default function Portfolio() {
           </p>
         </div>
 
-        <div className="absolute bottom-0 left-0 right-0 h-28 bg-gradient-to-t from-cream-light to-transparent z-10 pointer-events-none"></div>
+        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-cream-light to-transparent z-10 pointer-events-none"></div>
       </section>
 
       <section className="py-20 bg-cream-light">
