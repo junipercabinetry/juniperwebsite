@@ -8,7 +8,7 @@ const siteUrl = 'https://junipercabinetry.com';
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: 'Juniper Cabinetry - Custom Handcrafted Cabinetry in Richmond, BC',
+    default: 'Juniper Cabinetry | Premium Custom Cabinetry',
     template: '%s | Juniper Cabinetry',
   },
   description:
@@ -40,21 +40,21 @@ export const metadata: Metadata = {
     locale: 'en_CA',
     url: siteUrl,
     siteName: 'Juniper Cabinetry',
-    title: 'Juniper Cabinetry - Custom Handcrafted Cabinetry in Richmond, BC',
+    title: 'Juniper Cabinetry | Premium Custom Cabinetry',
     description:
-      'Premium custom cabinetry crafted in Richmond, BC. Specializing in kitchen cabinets, bathroom vanities, built-ins, and custom storage solutions.',
+      'Juniper Cabinetry is a custom cabinetry studio serving the Metro Vancouver area. Specializing in designing, manufacturing, and installing kitchen cabinets, bathroom vanities, built-ins, and custom storage solutions.',
     images: [
       {
         url: '/kitchen-hero-01.png',
         width: 1200,
         height: 630,
-        alt: 'Juniper Cabinetry - Custom Kitchen Cabinetry',
+        alt: 'Juniper Cabinetry | Premium Custom Cabinetry',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Juniper Cabinetry - Custom Handcrafted Cabinetry',
+    title: 'Juniper Cabinetry | Premium Custom Cabinetry',
     description:
       'Premium custom cabinetry crafted in Richmond, BC. Expert craftsmanship meets contemporary design.',
     images: ['/kitchen-hero-01.png'],
