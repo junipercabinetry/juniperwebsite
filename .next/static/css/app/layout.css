@@ -998,6 +998,9 @@ body{
 .h-\[80vh\]{
   height: 80vh;
 }
+.h-28{
+  height: 7rem;
+}
 .max-h-96{
   max-height: 24rem;
 }
