@@ -67,7 +67,7 @@ export default function About() {
             backgroundPosition: 'center',
           }}
         >
-          <div className="absolute inset-0 bg-brand-brown-dark/70"></div>
+          <div className="absolute inset-0 bg-black/20"></div>
         </div>
         <div className="absolute inset-0 z-0 grain"></div>
 
