@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     template: '%s | Juniper Cabinetry',
   },
   description:
-    'Premium custom cabinetry crafted in Richmond, BC. Specializing in kitchen cabinets, bathroom vanities, built-ins, and custom storage solutions. Expert craftsmanship meets contemporary design.',
+    'Juniper Cabinetry is a custom cabinetry studio serving the Metro Vancouver area. Specializing in designing, manufacturing, and installing kitchen cabinets, bathroom vanities, built-ins, and custom storage solutions.',
   keywords: [
     'custom cabinetry',
     'kitchen cabinets Richmond BC',
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Juniper Cabinetry | Premium Custom Cabinetry',
     description:
-      'Premium custom cabinetry crafted in Richmond, BC. Expert craftsmanship meets contemporary design.',
+      'Juniper Cabinetry is a custom cabinetry studio serving the Metro Vancouver area. Specializing in designing, manufacturing, and installing kitchen cabinets, bathroom vanities, built-ins, and custom storage solutions.',
     images: ['/kitchen-hero-01.png'],
   },
   robots: {
@@ -114,7 +114,7 @@ const jsonLd = {
   ],
   sameAs: [],
   description:
-    'Premium custom cabinetry crafted in Richmond, BC. Specializing in kitchen cabinets, bathroom vanities, built-ins, and custom storage solutions.',
+    'Juniper Cabinetry is a custom cabinetry studio serving the Metro Vancouver area. Specializing in designing, manufacturing, and installing kitchen cabinets, bathroom vanities, built-ins, and custom storage solutions.',
   areaServed: {
     '@type': 'GeoCircle',
     geoMidpoint: {
