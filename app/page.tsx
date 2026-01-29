@@ -92,7 +92,7 @@ export default function Home() {
           />
         </div>
 
-        <div className="absolute inset-0 z-[1] bg-gradient-to-b from-black/30 via-black/15 to-black/25 pointer-events-none"></div>
+        <div className="absolute inset-0 z-[1] bg-black/20 pointer-events-none"></div>
 
         <div className="absolute inset-0 z-0 grain"></div>
 
