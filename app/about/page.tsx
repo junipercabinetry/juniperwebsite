@@ -32,31 +32,9 @@ const values = [
   },
 ];
 
-const team = [
-  {
-    name: 'Benny Phung',
-    role: 'Master Craftsman & Founder',
-    image: '/benny-profile.webp',
-    bio: '33 years of experience in fine woodworking',
-  },
-  {
-    name: 'Le Dang',
-    role: 'Lead Designer',
-    image: '/le-profile.webp',
-    bio: '14 years of experience in designing better spaces',
-  },
-  {
-    name: 'Ricky Dang',
-    role: 'Project Manager',
-    image: '/ricky-profile.webp',
-    bio: 'Expert in seamless project execution',
-  },
-];
-
 export default function About() {
   const story = useScrollAnimation();
   const valuesSection = useScrollAnimation();
-  const teamSection = useScrollAnimation();
 
   return (
     <div className="min-h-screen">
@@ -161,36 +139,6 @@ export default function About() {
         </div>
       </section>
 
-      <section className="py-24 md:py-32 bg-cream">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <div ref={teamSection.ref}>
-            <div className="text-center mb-20">
-              <p
-                className={`text-brand-green text-sm tracking-[0.3em] uppercase mb-4 scroll-fade-up ${teamSection.isVisible ? 'visible' : ''}`}
-              >
-                The People
-              </p>
-              <h2
-                className={`font-serif text-5xl md:text-6xl text-brand-brown scroll-fade-up delay-100 ${teamSection.isVisible ? 'visible' : ''}`}
-              >
-                Meet Our Team
-              </h2>
-            </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
-              {team.map((member, index) => (
-                <TeamMember
-                  key={member.name}
-                  member={member}
-                  index={index}
-                  isVisible={teamSection.isVisible}
-                />
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
       <CTASection
         eyebrow="Join Our Story"
         title={
@@ -227,40 +175,6 @@ function ValueCard({
       </div>
       <h3 className="font-serif text-2xl text-brand-brown mb-4">{value.title}</h3>
       <p className="text-brand-brown/70 font-light leading-relaxed">{value.description}</p>
-    </div>
-  );
-}
-
-function TeamMember({
-  member,
-  index,
-  isVisible,
-}: {
-  member: (typeof team)[0];
-  index: number;
-  isVisible: boolean;
-}) {
-  return (
-    <div
-      className={`group scroll-fade-up ${isVisible ? 'visible' : ''}`}
-      style={{ transitionDelay: `${(index + 2) * 100}ms` }}
-    >
-      <div className="relative mb-8 image-zoom rounded-sm overflow-hidden">
-        <div className="relative aspect-[4/5]">
-          <Image
-            src={member.image}
-            alt={`${member.name}, ${member.role} at Juniper Cabinetry`}
-            fill
-            sizes="(max-width: 768px) 100vw, 33vw"
-            loading="lazy"
-            className="object-cover"
-          />
-          <div className="absolute inset-0 bg-brand-brown-dark/10 group-hover:bg-brand-brown-dark/30 transition-all duration-500"></div>
-        </div>
-      </div>
-      <h3 className="font-serif text-2xl text-brand-brown mb-2">{member.name}</h3>
-      <p className="text-brand-green text-sm tracking-wide mb-3">{member.role}</p>
-      <p className="text-brand-brown/70 font-light">{member.bio}</p>
     </div>
   );
 }
