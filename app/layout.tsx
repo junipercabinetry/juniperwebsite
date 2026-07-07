@@ -1,14 +1,25 @@
 import './globals.css';
 import type { Metadata } from 'next';
 import Script from 'next/script';
-import AppShell from './AppShell';
+import { Instrument_Serif } from 'next/font/google';
+import Navigation from '@/components/Navigation';
+import Footer from '@/components/Footer';
 
-const siteUrl = 'https://junipercabinetry.com';
+const instrumentSerif = Instrument_Serif({
+  weight: '400',
+  style: ['normal', 'italic'],
+  subsets: ['latin'],
+  variable: '--font-serif',
+  display: 'swap',
+});
+
+const siteUrl = 'https://junipercabinetry.ca';
+const GA_ID = process.env.NEXT_PUBLIC_GA_ID;
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: 'Juniper Cabinetry | Premium Custom Cabinetry',
+    default: 'Juniper Cabinetry | Custom Kitchen Cabinets in Richmond & Metro Vancouver',
     template: '%s | Juniper Cabinetry',
   },
   description:
@@ -30,6 +41,9 @@ export const metadata: Metadata = {
   authors: [{ name: 'Juniper Cabinetry' }],
   creator: 'Juniper Cabinetry',
   publisher: 'Juniper Cabinetry',
+  alternates: {
+    canonical: '/',
+  },
   formatDetection: {
     email: false,
     address: false,
@@ -40,24 +54,24 @@ export const metadata: Metadata = {
     locale: 'en_CA',
     url: siteUrl,
     siteName: 'Juniper Cabinetry',
-    title: 'Juniper Cabinetry | Premium Custom Cabinetry',
+    title: 'Juniper Cabinetry | Custom Kitchen Cabinets in Richmond & Metro Vancouver',
     description:
       'Juniper Cabinetry is a custom cabinetry studio serving the Metro Vancouver area. Specializing in designing, manufacturing, and installing kitchen cabinets, bathroom vanities, built-ins, and custom storage solutions.',
     images: [
       {
-        url: '/kitchen-hero-01.png',
+        url: '/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Juniper Cabinetry | Premium Custom Cabinetry',
+        alt: 'Custom kitchen cabinetry by Juniper Cabinetry',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Juniper Cabinetry | Premium Custom Cabinetry',
+    title: 'Juniper Cabinetry | Custom Kitchen Cabinets in Richmond & Metro Vancouver',
     description:
-      'Juniper Cabinetry is a custom cabinetry studio serving the Metro Vancouver area. Specializing in designing, manufacturing, and installing kitchen cabinets, bathroom vanities, built-ins, and custom storage solutions.',
-    images: ['/kitchen-hero-01.png'],
+      'Custom cabinetry studio serving Metro Vancouver. Kitchen cabinets, bathroom vanities, built-ins, and custom storage solutions.',
+    images: ['/og-image.jpg'],
   },
   robots: {
     index: true,
@@ -70,19 +84,16 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
-  verification: {
-    google: 'your-google-verification-code',
-  },
 };
 
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'LocalBusiness',
   name: 'Juniper Cabinetry',
-  image: `${siteUrl}/kitchen-hero-01.png`,
+  image: `${siteUrl}/og-image.jpg`,
   '@id': siteUrl,
   url: siteUrl,
-  telephone: '(604) 363-0238',
+  telephone: '+1-604-363-0238',
   email: 'junipercabinetry@gmail.com',
   priceRange: '$$$',
   address: {
@@ -112,18 +123,20 @@ const jsonLd = {
       closes: '16:00',
     },
   ],
-  sameAs: [],
+  sameAs: [
+    'https://www.instagram.com/junipercabinetry/',
+    'https://www.facebook.com/junipercabinetry',
+    'https://www.youtube.com/@JuniperCabinetry',
+    'https://www.tiktok.com/@junipercabinetry',
+  ],
   description:
     'Juniper Cabinetry is a custom cabinetry studio serving the Metro Vancouver area. Specializing in designing, manufacturing, and installing kitchen cabinets, bathroom vanities, built-ins, and custom storage solutions.',
-  areaServed: {
-    '@type': 'GeoCircle',
-    geoMidpoint: {
-      '@type': 'GeoCoordinates',
-      latitude: 49.1666,
-      longitude: -123.1336,
-    },
-    geoRadius: '50000',
-  },
+  areaServed: [
+    { '@type': 'City', name: 'Richmond' },
+    { '@type': 'City', name: 'Vancouver' },
+    { '@type': 'City', name: 'Burnaby' },
+    { '@type': 'City', name: 'Surrey' },
+  ],
 };
 
 export default function RootLayout({
@@ -132,17 +145,38 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="scroll-smooth">
+    <html lang="en" className={`scroll-smooth ${instrumentSerif.variable}`}>
       <head>
-        <Script
-          id="schema-org"
+        {/* Marks JS availability so scroll-reveal styles only hide content when they can also reveal it */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: "document.documentElement.classList.add('js');",
+          }}
+        />
+        <meta name="theme-color" content="#fbf7ee" />
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-          strategy="beforeInteractive"
         />
       </head>
       <body>
-        <AppShell>{children}</AppShell>
+        <Navigation />
+        <main>{children}</main>
+        <Footer />
+        {GA_ID && (
+          <>
+            <Script
+              src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
+              strategy="afterInteractive"
+            />
+            <Script id="ga4-init" strategy="afterInteractive">
+              {`window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', '${GA_ID}');`}
+            </Script>
+          </>
+        )}
       </body>
     </html>
   );

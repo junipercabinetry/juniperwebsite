@@ -1,2 +1,19 @@
+# Dependencies
 node_modules/
+
+# Next.js build output
+.next/
+out/
+
+# Environment
 .env
+.env*.local
+
+# Logs & OS cruft
+npm-debug.log*
+*.tsbuildinfo
+.DS_Store
+Thumbs.db
+
+# Netlify
+.netlify/
